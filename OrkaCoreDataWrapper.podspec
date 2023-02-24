@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'OrkaCoreDataWrapper'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.authors = 'Joey Barbier'
   s.summary = 'simple lib for search in CoreData'
   s.homepage = 'https://github.com/joey-barbier/ios-coredatawrapper'
@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation'
   s.frameworks = 'CoreData'
   
-  s.source_files = 'Sources/**/*.swift'
+  s.source_files = 'Package/Sources/**/*.swift'
 end
